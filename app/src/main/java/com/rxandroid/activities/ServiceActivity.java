@@ -13,7 +13,7 @@ import com.rxandroid.servcies.TestService;
  * Created by Devrepublic-14 on 3/9/2018.
  */
 
-public class ExampleFirst extends AppCompatActivity implements View.OnClickListener {
+public class ServiceActivity extends AppCompatActivity implements View.OnClickListener {
     private String TAG = "RxExample";
 
     @Override
