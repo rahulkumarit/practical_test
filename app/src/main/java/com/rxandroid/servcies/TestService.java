@@ -32,7 +32,6 @@ public class TestService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         super.onStartCommand(intent, flags, startId);
-
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
         builder.setSmallIcon(android.R.drawable.ic_dialog_alert);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);

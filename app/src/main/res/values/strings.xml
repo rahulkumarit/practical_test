@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">RxAndroid</string>
+    <string name="title_form">Title Here</string>
+    <string name="desc_form">desc form here</string>
+    <string name="hint_feedback">This hint feedback</string>
+    <string name="btn_send">send</string>
+    <string name="message_feedback_done">done</string>
 </resources>

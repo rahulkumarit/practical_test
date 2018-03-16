@@ -15,6 +15,10 @@ import java.io.ByteArrayOutputStream;
 
 public class StaticUtils {
 
+    public static String SITE_KEY="6LfAkEwUAAAAAPASwg6DIvThVZyIL8FVdYUlvOC-";
+    public static String SECERETRY_KEY="6LfAkEwUAAAAAO051nL3sftpupjYQzGd1yh1wL4u";
+
+
     public static Uri getImageUriFromCameraBitmap(Context inContext, Bitmap inImage) {
         ByteArrayOutputStream bytes = new ByteArrayOutputStream();
         inImage.compress(Bitmap.CompressFormat.JPEG, 10, bytes);
