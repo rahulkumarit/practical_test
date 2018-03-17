@@ -162,7 +162,7 @@ public class AndroidXMLParsingActivity extends BaseActivity {
         public final String getElementValue(Node elem) {
             Node child;
             if (elem != null) {
-                if (elem.hasChild   Nodes()) {
+                if (elem.hasChildNodes()) {
                     for (child = elem.getFirstChild(); child != null; child = child.getNextSibling()) {
                         if (child.getNodeType() == Node.TEXT_NODE) {
                             return child.getNodeValue();

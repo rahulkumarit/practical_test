@@ -17,6 +17,7 @@ public class StaticUtils {
 
     public static String SITE_KEY="6LfAkEwUAAAAAPASwg6DIvThVZyIL8FVdYUlvOC-";
     public static String SECERETRY_KEY="6LfAkEwUAAAAAO051nL3sftpupjYQzGd1yh1wL4u";
+    public static String JSON_URL="https://simplifiedcoding.net/demos/view-flipper/heroes.php";
 
 
     public static Uri getImageUriFromCameraBitmap(Context inContext, Bitmap inImage) {
